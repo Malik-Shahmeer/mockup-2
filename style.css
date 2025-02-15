@@ -1,0 +1,80 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: rgb(232, 232, 232);
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.tab-button-one {
+  background-color: #ff752a;
+  padding: 15px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+}
+.tab-button-one svg {
+  width: 30px;
+}
+.tab-button-two {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(232, 232, 232);
+  border: none;
+  width: 100%;
+  font-size: 20px;
+}
+.header {
+  display: flex;
+}
+
+.container {
+  margin: 40px;
+  border-radius: 20px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 30px;
+  width: 100%;
+  align-items: center;
+}
+.image-container img {
+  width: 70%;
+
+  margin: 40px;
+}
+
+.tick-icon svg {
+  width: 20px;
+  height: 20vh;
+}
+.last-button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.text-container {
+  margin-top: 100px;
+  color: white;
+}
